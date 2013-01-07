@@ -1,4 +1,4 @@
-(ns abrade.core)
+(ns abrade.client)
 
 (defn foo
   "I don't do a whole lot."
