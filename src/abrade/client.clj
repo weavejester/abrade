@@ -7,7 +7,10 @@
   identity)
 
 (defmethod browser :firefox [_]
-  (WebClient. (BrowserVersion/FIREFOX_3_6)))
+  (WebClient. (BrowserVersion/FIREFOX_17)))
+
+(defmethod browser :chrome [_]
+  (WebClient. (BrowserVersion/CHROME)))
 
 (defn open
   "Open a page in the supplied browser."
