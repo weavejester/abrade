@@ -5,4 +5,4 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.2.1"]
                  [org.clojure/data.zip "0.1.1"]
-                 [net.sourceforge.htmlunit/htmlunit "2.11"]])
+                 [net.sourceforge.htmlunit/htmlunit "2.12"]])
