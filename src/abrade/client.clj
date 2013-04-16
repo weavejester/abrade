@@ -39,3 +39,23 @@
   "Get elements in a page by CSS selector."
   [page selector]
   (seq (.querySelectorAll page selector)))
+
+(defn form
+  "Get a form by name."
+  [page form-name]
+  (.getFormByName page form-name))
+
+(defn input
+  "Get an input by name from a form."
+  [form input-name]
+  (.getInputByName form input-name))
+
+(defn set-value
+  "Set the value of an input."
+  [input value]
+  (.setValueAttribute input value))
+
+(defn click
+  "Click the supplied element. Returns a new page object."
+  [element]
+  (.click element))
