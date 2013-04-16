@@ -7,7 +7,7 @@ on Javascript. The Java [HtmlUnit][1] library is used under the hood.
 
 Add the following dependency to your project.clj file:
 
-    [abrade "0.0.1"]
+    [abrade "0.0.2"]
 
 ## Usage
 

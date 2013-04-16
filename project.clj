@@ -1,4 +1,4 @@
-(defproject abrade "0.0.1"
+(defproject abrade "0.0.2"
   :description "A Clojure library for scraping websites"
   :url "https://github.com/weavejester/abrade"
   :license {:name "Eclipse Public License"
